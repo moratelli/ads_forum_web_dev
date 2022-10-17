@@ -135,7 +135,7 @@ const getZodiacSignByDayAndMonth = (day, month) => {
 };
 
 const createZodiacSignTexts = (zodiacSign) => {
-  document.getElementById("zodiac-signs").textContent = "";
+  document.getElementById("zodiac-sign").textContent = "";
   document.getElementById("zodiac-sign").appendChild(document.createTextNode(zodiacSign.nome));
   document.getElementById("zodiac-sign").appendChild(document.createElement("br"));
   document.getElementById("zodiac-sign").appendChild(document.createTextNode(zodiacSign.caracteristica));
